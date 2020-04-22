@@ -1,0 +1,1 @@
+hugo serve --watch --port=7070 --liveReloadPort=443 --bind=0.0.0.0 --baseURL=https://prv.charmside.xyz --appendPort=false --buildDrafts --buildFuture

@@ -1,0 +1,71 @@
+baseurl = "https://blog.charmside.xyz"
+DefaultContentLanguage = "en"
+title = "The Charmside"
+theme = "beautifulhugo"
+metaDataFormat = "toml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+
+[Params]
+  homeTitle = "Welcome to the charmside" # Set a different text for the header on the home page
+  subtitle = ""
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = false
+  socialShare = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Christoph Harms"
+  website = "charmside.xyz"
+  email = "c.harms.ensink@gmail.com"
+  github = "Christoph-Harms"
+  gitlab = "c.harms"
+  bitbucket = "LokiBrot"
+  twitter = "the_harmstar"
+  stackoverflow = "users/7204318/christoph-harms-ensink"
+  instagram = "c_harms"
+  paypal = "chensink"
+  telegram = "Christoph_Harms"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
