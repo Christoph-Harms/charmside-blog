@@ -5,6 +5,7 @@ theme = "beautifulhugo"
 metaDataFormat = "toml"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
+number_sections = true
 
 
 [markup]
