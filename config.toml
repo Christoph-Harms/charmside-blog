@@ -11,6 +11,8 @@ number_sections = true
 [markup]
   [markup.highlight]
     lineNos = true
+  [markup.goldmark]
+    unsafe = true
 
 [Params]
   homeTitle = "Welcome to the charmside" # Set a different text for the header on the home page

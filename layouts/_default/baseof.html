@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "nav.html" . }}
+    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+    {{ block "footer" . }}{{ end }}
+  </body>
+  <script>
+  var remark_config = {
+    host: "https://remark.charmside.xyz", // hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
+    site_id: 'charmside',
+    components: ['embed'], // optional param; which components to load. default to ["embed"]
+                           // to load all components define components as ['embed', 'last-comments', 'counter']
+                           // available component are:
+                           //     - 'embed': basic comments widget
+                           //     - 'last-comments': last comments widget, see `Last Comments` section below
+                           //     - 'counter': counter widget, see `Counter` section below
+    max_shown_comments: 10, // optional param; if it isn't defined default value (15) will be used
+    theme: 'light', // optional param; if it isn't defined default value ('light') will be used
+    locale: 'en' // set up locale and language, if it isn't defined default value ('en') will be used
+  };
+
+  (function(c) {
+    for(var i = 0; i < c.length; i++){
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' +c[i] +'.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+</script>
+</html>
+
