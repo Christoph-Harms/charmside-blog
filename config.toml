@@ -1,4 +1,4 @@
-baseurl = "https://blog.charmside.xyz"
+baseURL = "https://blog.charmside.xyz"
 DefaultContentLanguage = "en"
 title = "The Charmside"
 theme = "beautifulhugo"
