@@ -317,7 +317,7 @@ Scroll to the end of this article for a complete `docker-compose.yaml`.
 
 That's it! Restart everything with ` docker-compose down && docker-compose up -d`, visit your IDE and you will not be asked to pass  HTTP Basic Auth, but you will be required to be logged in to the google account that you added to the `WHITELIST` variable in the previous code example. You can add more email addresses there by separating them with a comma.
 
-## Conlusion
+## Conclusion
 If you want to develop a JS-based web application with your new cloud IDE, you're pretty much good to go now. However, there is still more to be done. For example, we can not install VSCode plugins as promised _yet_. This will be explained in a followup article that I will write shortly, so thank you for your patience.
 
 This is how your `docker-compose.yaml` should look after following through this whole article:
