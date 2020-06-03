@@ -4,7 +4,7 @@ subtitle = "Running Theia + Traefik v2 + traefik-forward-auth with Docker and Do
 date = "2020-04-18T13:00:00+02:00"
 tags = ["theia", "traefik", "traefik-forward-auth", "docker", "docker-compose", "cloudIDE"]
 keywords = ["theia", "traefik", "traefik-forward-auth", "docker", "docker-compose", "cloudIDE"]
-draft = "true"
+draft = "false"
 +++
 Ever since I first learned about the concept of a cloud IDE through Cloud9 back in 2012-ish (before they were bought by AWS), I was drawn to the idea. [And while there are many good reasons to use a cloud IDE for coding](https://hellboundbloggers.com/need-cloud-based-ide/64800/) (professionally as well as recreatively), my personal number one reason was a different one: I wanted to do it, because I thought it was cool. Because I'm a nerd.
 <!--more-->
