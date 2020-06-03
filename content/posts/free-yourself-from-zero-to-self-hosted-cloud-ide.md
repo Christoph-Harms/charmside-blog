@@ -1,7 +1,7 @@
 +++
 title = "Free Yourself - From Zero to Self-Hosted Cloud IDE"
 subtitle = "Running Theia + Traefik v2 + traefik-forward-auth with Docker and Docker Compose in the cloud"
-date = "2020-04-18T13:00:00+02:00"
+date = "2020-06-03T13:00:00+02:00"
 tags = ["theia", "traefik", "traefik-forward-auth", "docker", "docker-compose", "cloudIDE"]
 keywords = ["theia", "traefik", "traefik-forward-auth", "docker", "docker-compose", "cloudIDE"]
 draft = "false"
