@@ -241,7 +241,7 @@ To achieve this, we can use container labels to define another service on that p
       # define the router "theia-devprv" and attach the "devprv" service to it
       - "traefik.http.routers.theia-devprv.service=devprv"
       # expose under the subdomain 'prv'
-      - "traefik.http.routers.theia-ide.rule=Host(`prv.${DOMAIN}`)"
+      - "traefik.http.routers.theia-devprv.rule=Host(`prv.${DOMAIN}`)"
       # secure access with basic auth
       - "traefik.http.routers.theia-ide.middlewares=auth"
       - "traefik.http.routers.theia-devprv.middlewares=auth"
